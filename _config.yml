@@ -3,4 +3,4 @@ description: >-
          This is my portfolio showcasing my projects and skills.
 baseurl: "" # leave empty since this is your user page
 url: "https://YOURUSERNAME.github.io" # replace YOURUSERNAME with your GitHub username
-theme: pages-themes/hacker@v0.2.0 # replace minima with your chosen theme from the list
+theme: jekyll-remote-them # replace minima with your chosen theme from the list
