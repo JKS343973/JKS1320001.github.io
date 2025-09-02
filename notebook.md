@@ -26,14 +26,15 @@
 | StatefulWidget   | A widget that can change over time               |   Used in MyHomePage                      |
 | Navigator        | Manages screenn transitions                      |   Navigator.pushNamed(cont, '/page2");    |
 | AppBar           | Top navigation bar                               |   Title of each page appears here         |
-| Column           | vertical layout                                  |                                           |
-| Row              | horizontal layout                                                                            |
-| Container        | wraps content with padding, margin,or color      |                                           |
-| Text             |                                                  |                                           |
-| Image.network    | displays images from a URL                       |                                           |
-| Padding          | adds space around a widget                       |                                           |
-| Center           | centers its child                                |                                           |
+| Column           | vertical layout                                  |   Format of layout                        |
+| Row              | horizontal layout                                |   Format of layout                        |
+| Container        | wraps content with padding, margin,or color      |   Packages code and dependencies          |
+| Named Routes     | Predefined paths to navigate between screens     |   '/','/page2','/page3',etc.              |
+| Image.network    | displays images from a URL                       |    Images,text                            | 
+| main()           | The function that runs the app                   |    Found in main.dart                     |
 
+Padding        
+Center           
 ---
 
 ### Layout and Design Widgets
