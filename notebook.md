@@ -20,8 +20,8 @@ Notes for day 2
 - ## Flutter Notes
 
 - ### What is flutter?
-  - Definition:
-- Why is it useful?
+  - Definition: A framework made by Google for building apps that work on web,Android, and iOS with one codebase.
+- Why is it useful?less money, less time, less work
 
 ---
 
@@ -36,15 +36,15 @@ Notes for day 2
 | StatefulWidget   |                                                  |                                           |
 | Navigator        |                                                  |                                           |
 | AppBar           |                                                  |                                           |
-| Column           |                                                  |                                           |
-| Row              |                                                  |                                           |
-| Container        |                                                  |                                           |
+| Column           | vertical layout                                  |                                           |
+| Row              | horizontal layout                                                 |                                           |
+| Container        | wraps content with padding, margin,or color      |                                           |
 | Text             |                                                  |                                           |
-| Image.network    |                                                  |                                           |
+| Image.network    | displays images from a URL                       |                                           |
 
-| Padding    |                    |                     |
+| Padding          | adds space around a widget                       |                                           |
 
-| Center |                        |                     |
+| Center           | centers its child                                |                                           |
 
 ---
 
