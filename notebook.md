@@ -4,7 +4,7 @@
 - [Flutter Notes](#flutter-notes)
   - [What is Flutter](#what-is-flutter)  
   - [KeyTerms and Definitions](#key-terms-and-definitions)
-- [Day 2](#day-2)
+- [Code Definition](#code-definition)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 - ## Flutter Notes
@@ -33,9 +33,35 @@
 | Image.network    | displays images from a URL                       |    Images,text                            | 
 | main()           | The function that runs the app                   |    Found in main.dart                     |
 
-Padding        
-Center           
+
 ---
+## Code Definition
+
+| Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
+|------|------------|--------------------------|-------------------|-------------|
+|Variable| A named container used to store a value that may change. | `var x = 5;` | Goals in soccer |
+|Constant| A fixed value that cannot change once set. | `const PI = 3.14;` | File for a video |
+|Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` | Your age |
+|String| A sequence of characters used to represent words or text. | `"Hello World"` | Messages | Title of the text |
+|Integer| Whole number values. | `int age = 16;` | Streak | Notifications |
+|Double| Number values with decimals. | `double age = 16.2;` | Smooth Movement | Progress | 
+|Boolean| A value that can be true or false. | `bool isLoggedIn = false;` ||| 
+|List| A collection of values in a specific order. | `List<String> names = [];` | Menu | Contact Log |
+|Null| A special value that means “nothing.” | `String? name = null;` |||
+|Function| A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |||
+|Parameter| The information passed into a function to change how it works. | `greet(String name)` | 
+|Return| The result a function gives back. | `return total;` | 
+|Scope| Where a variable or function can be used. | (No set syntax — concept-based) | 
+|Class| Blueprint for creating objects with specific structure and behavior. | `class Dog {}` | 
+|Object| A specific version of a class. | `Dog myDog = Dog();` |
+|Property| A variable that belongs to a class/object. | `String name;` |
+|Method| A function that belongs to a class. | `void bark() {}` |
+|Constructor| A special function used to set up a class when it’s created. | `Dog(this.name);` |
+|Abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |
+|Override| Changing how a built-in or inherited function behaves. | `@override` |
+|Void| A function that does not return a value. | `void printMessage() {}` | 
+
+
 
 ### Layout and Design Widgets
 - How do you center a widget?
