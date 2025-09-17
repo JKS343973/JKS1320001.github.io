@@ -36,6 +36,40 @@
 | main()           | The function that runs the app                   |    Found in main.dart                     |
 
 
+
+### Layout and Design Widgets
+- How do you center a widget?
+- How do you align something to the left or right?
+- What widget adds space around content?
+
+
+##Flutter Definition with structure
+| Term | Definition and Description | Base Structure | Real Life Example | App Example |
+|------|----------------------------|----------------|-------------------|-------------|
+| Main() | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
+| Material App | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
+| Scaffold | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | pages | templete |
+| Column | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` | stack | Small space |
+| Row | A widget that shows things side-by-side. | `Row(...)` | desks | Big space |
+| Container | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` | Shelves | the background |
+| Text | A widget to display text on the screen. | `Text('Hello')` | Documents | Widgets |
+| Image.network | A widget to show an image using a link from the internet. | `Image.network('https://...')` | Storage | Web |
+| ElevatedButton | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
+|      | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
+| StatelessWidget | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  | HomePage |
+| SatefulWidget | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` | a ball | version 1.0 |
+| Navigator | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
+| Padding | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` | make space | add containers |
+| Center | Aligns content in the center of the screen or container. | `Center(child: ...)` | Paintings | Welcome App |
+| Wrap | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  
+| @override | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  
+| Build | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+|      | Required in every widget class to describe what to show. | `build` |  |  |
+|      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
+|      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
+|      | A keyword that means the value won't change and is set once. | `const` |  |  |
+
+
 ---
 ## Code Definition
 
@@ -62,18 +96,6 @@
 |Abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |
 |Override| Changing how a built-in or inherited function behaves. | `@override` |
 |Void| A function that does not return a value. | `void printMessage() {}` | 
-
-
-
-### Layout and Design Widgets
-- How do you center a widget?
-- How do you align something to the left or right?
-- What widget adds space around content?
-
-
-
-
-
 
 
 
