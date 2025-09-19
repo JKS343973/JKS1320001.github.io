@@ -89,7 +89,7 @@
 |Return| The result a function gives back. | `return total;` | Confirmation Code | X to interact |
 |Scope| Where a variable or function can be used. | (No set syntax — concept-based) | Limitations | Import files |
 |Class| Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |||
-|Object| A specific version of a class. | `Dog myDog = Dog();` |
+|Object| A specific version of a class. | `Dog myDog = Dog();` |  ||
 |Property| A variable that belongs to a class/object. | `String name;` |
 |Method| A function that belongs to a class. | `void bark() {}` |
 |Constructor| A special function used to set up a class when it’s created. | `Dog(this.name);` |
