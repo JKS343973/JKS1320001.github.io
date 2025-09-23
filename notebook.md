@@ -46,15 +46,17 @@
 ##Flutter Definition with structure
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
-| Main() | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
-| Material App | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
-| Scaffold | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | pages | templete |
-| Column | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` | stack | Small space |
-| Row | A widget that shows things side-by-side. | `Row(...)` | desks | Big space |
-| Container | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` | Shelves | the background |
-| Text | A widget to display text on the screen. | `Text('Hello')` | Documents | Widgets |
-| Image.network | A widget to show an image using a link from the internet. | `Image.network('https://...')` | Storage | Web |
-| ElevatedButton | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
+| Main() | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` | starting a car | void main() => runApp(MyPortfolioApp()); |
+| Material App | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` | Front Cover |  return MaterialApp(debugShowCheckedModeBanner: false,title: 'TSA Portfolio',theme: ThemeData( |
+| Scaffold | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | Desgin for a billboard | return Scaffold(body: Column(mainAxisAlignment: MainAxisAlignment.start,children: [ |
+| Column | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` | stacks |  body: Column(
+ mainAxisAlignment: MainAxisAlignment.start,children: [ |
+| Row | A widget that shows things side-by-side. | `Row(...)` | arrows for a wiki page | child: Row(children: [ |
+| Container | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` | Shelves | return Container(margin:constEdgeInsets.symmetric (vertical: 8, horizontal: 16),padding: const EdgeInsets.all(12),decoration: BoxDecoration |
+| Text | A widget to display text on the screen. | `Text('Hello')` | Documents |  const Text('HI EVERYONE,\nWelcome to the', |
+| Image.network | A widget to show an image using a link from the internet. | `Image.network('https://...')` | PreView | child: Image.network('https://placedog.net/640/480?random', |
+| ElevatedButton | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` | Button |  ElevatedButton(
+onPressed: () => Navigator.pushNamed(context, '/showcase'),child: const Text('Next') |
 |      | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
 | StatelessWidget | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  | HomePage |
 | SatefulWidget | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` | a ball | version 1.0 |
