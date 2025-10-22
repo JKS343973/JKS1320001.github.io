@@ -98,7 +98,13 @@ onPressed: () => Navigator.pushNamed(context, '/showcase'),child: const Text('Ne
 |Abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |
 |Override| Changing how a built-in or inherited function behaves. | `@override` |
 |Void| A function that does not return a value. | `void printMessage() {}` | 
-
+|Scanner| creates a scanner object to take input from user | Scanner in = new Scanner(system.in) | | |
+|Import Scanner| gives access to Scanner class, required at top to use Scanner| import java.util.Scanner; | | |
+|Print statement| prints the content in the parenthesis   | | | |
+|nextLine| reads in a STring from the user   | String str = input.nextLine(); | | |
+|nextInt| reads in an int from the user   | int num = input.nextInt(); | | |
+|nextDouble| reads in double(decimal) from the user   | double myDouble = input.nextDouble(); | | |
+|nextBoolean| reads in Boolean(true/false) from the user   | boolean bool = input.nextBoolean(); | | |
 
 
 ## Markdown Style Guide for Coding Notebooks
