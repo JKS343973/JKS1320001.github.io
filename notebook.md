@@ -105,6 +105,10 @@ onPressed: () => Navigator.pushNamed(context, '/showcase'),child: const Text('Ne
 |nextInt| reads in an int from the user   | int num = input.nextInt(); | | |
 |nextDouble| reads in double(decimal) from the user   | double myDouble = input.nextDouble(); | | |
 |nextBoolean| reads in Boolean(true/false) from the user   | boolean bool = input.nextBoolean(); | | |
+|Arithmetic operaters| - * / %   | modulus,returns the reminder from dividing | | |
+|Compound operaters| applies the result to the variable   | += -= *= /= %= ++ (adds 1) | | |
+
+
 
 
 ## Markdown Style Guide for Coding Notebooks
