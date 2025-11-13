@@ -108,7 +108,8 @@ onPressed: () => Navigator.pushNamed(context, '/showcase'),child: const Text('Ne
 |Arithmetic operaters| - * / %   | modulus,returns the reminder from dividing | | |
 |Compound operaters| applies the result to the variable   | += -= *= /= %= ++ (adds 1) | | |
 |Overloaded method/function or constructor| Uses the same name, but has different parameters | Pizza(), Pizza(String toppings) 2 constructors, first is a default cheese pizza, 2nd has 1 toppings| | |
-
+| Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
+| Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
 
 ## Markdown Style Guide for Coding Notebooks
 
