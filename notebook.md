@@ -111,9 +111,16 @@ onPressed: () => Navigator.pushNamed(context, '/showcase'),child: const Text('Ne
 | Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
 | Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
 
-## Markdown Style Guide for Coding Notebooks
 
-Follow this guide to keep your coding notebook **clear, consistent, and professional**.  
+[String Notes](#string-notes)
+### String notes
+ -Strings have indices(plural for index)which start at 0."Hello has indices 0(h),1(e),2(1),3(1),4(0).
+  -Final index location is length-1
+
+
+  ### String Methods table
+
+>
 This ensures your notes are easy for you (and others) to read later.
 
 ---
